@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Le proprietà vertical-align</title>
+		<style>
+		body{padding:10px;font-size:40px;line-height: 200%;}
+		p{border-top:1px solid red;border-bottom:1px solid red;margin:0 0 -1px 0;}
+		span{font-size:15px;line-height:100%;}
+		span.baseline { vertical-align: baseline; }
+		span.sub { vertical-align: sub; }
+		span.super { vertical-align: super; }
+		span.top { vertical-align: top; }
+		span.text-top { vertical-align: text-top; }
+		span.middle { vertical-align: middle; }
+		span.bottom { vertical-align: bottom; }
+		span.text-bottom { vertical-align: text-bottom; }
+		</style>
+	</head>
+	<body>
+		<p>XX<span class="baseline">baseline</span> XX<span class="sub">sub</span> XX<span class="super">super</span> XX<span class="middle">middle</span></p>
+		<p>XX<span class="top">top</span> XX<span class="bottom">bottom</span> XX<span class="text-top">text-top</span> XX<span class="text-bottom">text-bottom</span></p>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset="utf-8"/> 
+		<title>La regola @font-face</title> 
+		<style> 
+			@font-face { /* regola per internet Explorer */
+			  font-family: 'Arvo';
+			  src: url('http://www.cssguidacompleta.com/iii/es/fonts/Arvo-Regular.eot');
+			}
+			@font-face { /* regola per gli altri browser */
+			  font-family: 'Arvo';
+			  src: local('Arvo'), url('http://www.cssguidacompleta.com/iii/es/fonts/Arvo-Regular.ttf') format('truetype');
+			}
+			body {
+				font-family: 'Arvo', sans-serif;
+			}
+			b{font-weight:700}
+		</style> 
+	</head> 
+	<body> 
+		<p> 
+			Questo testo è in carattere Arvo:<br> 
+			Cantami, o Diva, del Pelìde Achille l’ira funesta che infiniti addusse lutti agli Achei, molte anzi tempo all’Orco generose travolse alme d’eroi, e di cani e d’augelli orrido pasto lor salme abbandonò (così di Giove l’alto consiglio s’adempìa), da quando primamente disgiunse aspra contesa il re de’ prodi Atride e il divo Achille.
+		</p> 
+	</body> 
+</html>
