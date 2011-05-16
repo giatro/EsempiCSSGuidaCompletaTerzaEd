@@ -36,6 +36,6 @@ Indice
     * fig.5.12: cartella contenente l'esempio relativo all'uso di sfondi multipli per creare un effetto parallasse
 * cap06: esempi relativi al capitolo 6 dedicato al box model
     * fig.6.2.html: Esempio di utilizzo delle proprietà min-width e max-width
-    * fig.6.4.html: Funzionamento dei valori percentuali per la proprietà height
+    * fig.6.3.html: Funzionamento dei valori percentuali per la proprietà height
     * fig.6.4.html: La proprietà border-style
     * fig.6.5.html: La proprietà border-radius
