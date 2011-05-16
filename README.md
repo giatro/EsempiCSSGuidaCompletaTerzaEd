@@ -39,3 +39,8 @@ Indice
     * fig.6.3.html: Funzionamento dei valori percentuali per la proprietà height
     * fig.6.4.html: La proprietà border-style
     * fig.6.5.html: La proprietà border-radius
+    * fig.6.11.html: La proprietà overflow e il valore visible
+    * fig.6.12.html: La proprietà overflow e il valore hidden
+    * fig.6.13.html: La proprietà overflow e il valore scroll
+    * fig.6.14.html: La proprietà overflow e il valore auto
+    * fig.6.16.html: Le proprietà overflow-x e overflow-y
