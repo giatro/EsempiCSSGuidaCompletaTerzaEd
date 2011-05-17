@@ -6,7 +6,7 @@ Principali esempi utilizzati nella terza edizione del libro "[CSS Guida Completa
 Indice
 ------
 
-* cap04: esempi relativi al capitolo 4 dedicato alla formattazione del testo
+* cap04: Tecniche di base: formattazione del testo 
     * fig.4.1.html: La proprietà font-family 
     * fig.4.10.html: Le proprietà vertical-align 
     * fig.4.11.html: La proprietà text-decoration 
@@ -24,7 +24,7 @@ Indice
     * fig.4.6.html: La proprietà line-height 
     * fig.4.7.html: Le proprietà letter-spacing e word-spacing 
     * fig.4.9.html: Le proprietà text-indent 
-* cap05: esempi relativi al capitolo 5 dedicato alla definizione degli sfondi
+* cap05: Tecniche di base: definizione dei colori e degli sfondi
     * fig.5.3.html: La proprietà font-family
     * fig.5.5.1.html: Proprietà background-image
     * fig.5.5.2.html: Proprietà background-image
@@ -34,7 +34,7 @@ Indice
     * fig.5.8.html: Proprietà background-image
     * fig.5.9.html: Proprietà background-image
     * fig.5.12: cartella contenente l'esempio relativo all'uso di sfondi multipli per creare un effetto parallasse
-* cap06: esempi relativi al capitolo 6 dedicato al box model
+* cap06: Tecniche di base: il box model 
     * fig.6.2.html: Esempio di utilizzo delle proprietà min-width e max-width
     * fig.6.3.html: Funzionamento dei valori percentuali per la proprietà height
     * fig.6.4.html: La proprietà border-style
