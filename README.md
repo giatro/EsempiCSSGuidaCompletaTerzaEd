@@ -47,3 +47,10 @@ Indice
     * fig.6.17.html: La proprietà box-shadow
     * fig.6.18.html: La proprietà box-shadow: controllo della dimensione dell’ombra e parola chiave inset
     * fig.6.19.html: Definizione di ombre multiple mediante la proprietà box-shadow 
+* cap07: Tecniche avanzate: impaginazione
+    * fig.7.1.html: Il normale flusso degli elementi HTML 
+    * fig.7.2.html: Posizionamento relativo
+    * fig.7.3.html: La proprietà z-index
+    * fig.7.4.html: Posizionamento assoluto
+    * fig.7.5.html: Dimensionamento di box posizionati in modo assoluto
+    * fig.7.6.html: Posizionamento fisso
