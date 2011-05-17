@@ -44,3 +44,6 @@ Indice
     * fig.6.13.html: La proprietà overflow e il valore scroll
     * fig.6.14.html: La proprietà overflow e il valore auto
     * fig.6.16.html: Le proprietà overflow-x e overflow-y
+    * fig.6.17.html: La proprietà box-shadow
+    * fig.6.18.html: La proprietà box-shadow: controllo della dimensione dell’ombra e parola chiave inset
+    * fig.6.19.html: Definizione di ombre multiple mediante la proprietà box-shadow 
