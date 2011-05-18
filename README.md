@@ -54,3 +54,12 @@ Indice
     * fig.7.4.html: Posizionamento assoluto
     * fig.7.5.html: Dimensionamento di box posizionati in modo assoluto
     * fig.7.6.html: Posizionamento fisso
+    * fig.7.8.html: Esempio dettagliato di un blocco flottante
+    * fig.7.9.html: La proprietà clear
+    * fig.7.10.html: Blocchi flottanti in successione
+    * fig.7.11.html: Altezza dei blocchi contenenti blocchi flottanti
+    * 2-col-larghezza-fssa.html: Layout a due colonne a larghezza fissa (figura 7.20)
+    * 2-col-liquide.html: Layout a due colonne liquide (figura 7.29)
+    * 3-col-larghezza-fissa.html: Layout a tre colonne a larghezza fissa (figura 7.32)
+    * 3-col-liquide.html: Layout a tre colonne liquide (figura 7.35)
+    * 3-col-fix-liq-fix.html: Layout a tre colonne di cui due liquide e una a larghezza fissa (figura 7.37777777)
