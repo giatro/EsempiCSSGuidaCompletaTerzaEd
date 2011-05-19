@@ -62,4 +62,4 @@ Indice
     * 2-col-liquide.html: Layout a due colonne liquide (figura 7.29)
     * 3-col-larghezza-fissa.html: Layout a tre colonne a larghezza fissa (figura 7.32)
     * 3-col-liquide.html: Layout a tre colonne liquide (figura 7.35)
-    * 3-col-fix-liq-fix.html: Layout a tre colonne di cui due liquide e una a larghezza fissa (figura 7.37777777)
+    * 3-col-fix-liq-fix.html: Layout a tre colonne di cui due liquide e una a larghezza fissa (figura 7.37)
