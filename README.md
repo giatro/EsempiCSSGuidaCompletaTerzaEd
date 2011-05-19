@@ -63,3 +63,8 @@ Indice
     * 3-col-larghezza-fissa.html: Layout a tre colonne a larghezza fissa (figura 7.32)
     * 3-col-liquide.html: Layout a tre colonne liquide (figura 7.35)
     * 3-col-fix-liq-fix.html: Layout a tre colonne di cui due liquide e una a larghezza fissa (figura 7.37)
+    * fig.7.38.html: Layout complesso ottenuto annidando due layout a due colonne
+    * fig.7.40.html: Layout griglia 3x3
+    * fig.7.41.html: Griglia complessa
+    * fig.7.43.html: La dichiarazione display:table-cell
+    * fig.7.44.html: Layout a tre colonne a larghezza fissa realizzato mediante la dichiarazione display:table-cell
