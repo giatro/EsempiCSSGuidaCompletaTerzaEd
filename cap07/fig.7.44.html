@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Layout a tre colonne</title>
+		<style>
+			/*
+				Attenzione! Questa tecnica è supportata dalle versioni di Internet Explorer pari o superiori a 8
+			*/
+			html,body{
+				font:11px MCPdigital, monospace;
+				background:#FFF;
+				position:relative;
+			}
+
+		    #intestazione{
+				border: 3px solid #000;
+				width: 800px;
+				margin: auto;
+				font-size:3em;
+				background: #666;
+				color: #FFF;
+		    }
+		    #pie-di-pagina{
+				border: 3px solid #000;
+				width: 800px;
+				margin: auto;
+				background: #666;
+				color: #FFF;
+		    }
+		    #corpo{
+				border-left:3px solid #000;
+				border-right:3px solid #000;
+				width: 800px;
+				margin: auto;
+		    }
+		    #colonna-1{
+				display:table-cell;
+				width: 200px;
+				background:#AAA;
+		    }
+		    #colonna-2{
+				border-right:3px solid #000;
+				border-left:3px solid #000;
+				display:table-cell;
+				background:#EEE;
+		    }
+		    #colonna-3{
+				display:table-cell;
+				width: 200px;
+				background:#CCC;
+		    }
+		</style>
+	</head>
+	<body>
+		<div id="intestazione">Layout a tre colonne: Intestazione</div>
+		<div id="corpo">
+			<div id="colonna-1">
+				<p>Cantami, o Diva, del Pelìde Achille l’ira funesta che infiniti addusse lutti agli Achei, molte anzi tempo all’Orco generose travolse alme d’eroi, e di cani e d’augelli orrido pasto lor salme abbandonò (così di Giove l’alto consiglio s’adempìa), da quando primamente disgiunse aspra contesa il re de’ prodi Atride e il divo Achille. E qual de’ numi inimicolli? Il figlio di Latona e di Giove.</p>
+				<p>Irato al Sire destò quel Dio nel campo un feral morbo, e la gente perìa: colpa d’Atride che fece a Crise sacerdote oltraggio.</p>
+				<p>Degli Achivi era Crise alle veloci prore venuto a riscattar la figlia con molto prezzo. In man le bende avea, e l’aureo scettro dell’arciero Apollo: e agli Achei tutti supplicando, e in prima ai due supremi condottieri Atridi: O Atridi, ei disse, o coturnati Achei, gl’immortali del cielo abitatori concedanvi espugnar la Prïameia cittade, e salvi al patrio suol tornarvi.</p>
+			</div>
+			<div id="colonna-2">
+				<p>Deh mi sciogliete la diletta figlia, ricevetene il prezzo, e il saettante figlio di Giove rispettate.</p>
+				<p>- Al prego tutti acclamâr: doversi il sacerdote riverire, e accettar le ricche offerte.</p>
+				<p>Ma la proposta al cor d’Agamennóne non talentando, in guise aspre il superbo accommiatollo, e minaccioso aggiunse: Vecchio, non far che presso a queste navi ned or né poscia più ti colga io mai; ché forse nulla ti varrà lo scettro né l’infula del Dio.</p>
+				<p>Franca non fia costei, se lungi dalla patria, in Argo, nella nostra magion pria non la sfiori vecchiezza, all’opra delle spole intenta, e a parte assunta del regal mio letto.</p>
+			</div>
+			<div id="colonna-3">
+				<p>Or va, né m’irritar, se salvo ir brami.</p>
+				<p>Impaurissi il vecchio, ed al comando obbedì.</p>
+				<p>Taciturno incamminossi del risonante mar lungo la riva; e in disparte venuto, al santo Apollo di Latona figliuol, fe’ questo prego: Dio dall’arco d’argento, o tu che Crisa proteggi e l’alma Cilla, e sei di Tènedo possente imperador, Smintèo, deh m’odi.</p>
+				<p>Se di serti devoti unqua il leggiadro tuo delubro adornai, se di giovenchi e di caprette io t’arsi i fianchi opimi, questo voto m’adempi; il pianto mio paghino i Greci per le tue saette.</p>
+				<p>Sì disse orando.</p>
+			</div>
+		</div>
+		<div id="pie-di-pagina">Layout a tre colonne: piè di pagina</div>
+	</body>
+</html>
