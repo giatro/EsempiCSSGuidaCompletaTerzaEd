@@ -68,3 +68,16 @@ Indice
     * fig.7.41.html: Griglia complessa
     * fig.7.43.html: La dichiarazione display:table-cell
     * fig.7.44.html: Layout a tre colonne a larghezza fissa realizzato mediante la dichiarazione display:table-cell
+* cap08: Tecniche avanzate: menu di navigazione
+    * fig.8.3.html: Menu semplicea un livello
+    * fig.8.4.html: Menu a pulsanti
+    * fig.8.5.html: Menu con cursore di scorrimento
+    * fig.8.6.html: Menu con punti elenco gestiti mediante gli sfondi
+    * fig.8.9.html: Menu orizzontale di base 
+    * fig.8.10.html: Menu orizzontale con barre verticali di separazione
+    * fig.8.11.html: Menu orizzontale con effetto rollover
+    * fig.8.12.html: Menu con indicazione di sezione 
+    * fig.8.13.html: Menu a schede 
+    * fig.8.15.html: Menu a due livelli orizzontale 
+    * fig.8.16.html: Menu dinamico a comparsa laterale 
+

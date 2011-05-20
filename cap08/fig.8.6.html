@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu a un livello</title>
+	<style>
+	body{
+	background:#FFF;
+	color:#000;
+	font:80% Arial,Helvetica,sans-serif;
+	}
+	.menuNavigazione{
+	width:198px;
+	margin:0;
+	padding:0;
+	border-top:1px solid #444;
+	border-left:1px solid #444;
+	border-right:1px solid #444;
+	}
+	.menuNavigazione li{
+	list-style:none;
+	}
+	.menuNavigazione a{
+	display:block;
+	text-decoration:none;
+	padding:3px 0.5em 3px 16px;
+	border-bottom:1px solid #444;
+	}
+	.menuNavigazione a:link,
+	.menuNavigazione a:visited{
+	background:#EEE url(marcatore.gif) 3px 50% no-repeat;
+	color:#000;
+	}
+	.menuNavigazione a:hover,
+	.menuNavigazione a:focus,
+	.menuNavigazione a:active{
+	background:#444 url(marcatore_rollover.gif) 3px 50% no-repeat;
+	color:#FFF;
+	}
+	.menuNavigazione{
+	background:url(marcatore_rollover.gif) -200px -200px no-repeat;
+	/* carica l'immagine in anticipo */
+	}
+	</style>
+</head>
+<body>
+	<ul class="menuNavigazione">
+		<li><a href="...">Prima Voce</a></li>
+		<li><a href="...">Seconda Voce</a></li>
+		<li><a href="...">Terza Voce</a></li>
+		<li><a href="...">Quarta Voce</a></li>
+		<li><a href="...">Quinta Voce</a></li>
+	</ul>
+</body>
+</html>

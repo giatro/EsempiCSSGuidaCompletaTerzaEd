@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu a un livello</title>
+	<style>
+	body{
+	background:#FFF;
+	color:#000;
+	font:80% Arial,Helvetica,sans-serif;
+	}
+	.menuNavigazione{
+	margin:0;
+	padding:0.5em 0;
+	border-bottom:1px solid #000;
+	text-align:center;
+	}
+	.menuNavigazione li{
+	display:inline;
+	white-space:nowrap;
+	padding:0 1em;
+	border-left:1px solid #666;
+	}
+	.menuNavigazione > li:first-child{
+	border-left:none;
+	}
+	.menuNavigazione a:link,
+	.menuNavigazione a:visited{
+	background:#FFF;
+	color:#000;
+	text-decoration:none;
+	}
+	.menuNavigazione a:hover,
+	.menuNavigazione a:focus,
+	.menuNavigazione a:active{
+	text-decoration: underline;
+	}
+	</style>
+</head>
+<body>
+<ul class="menuNavigazione">
+	<li><a href="#">Prima Voce</a></li
+	><li class="voceCorrente"><a href="#">Seconda Voce</a></li
+	><li><a href="#">Terza Voce</a></li
+	><li><a href="#">Quarta Voce</a></li
+	><li><a href="#">Quinta Voce</a></li>
+</ul>
+</body>
+</html>

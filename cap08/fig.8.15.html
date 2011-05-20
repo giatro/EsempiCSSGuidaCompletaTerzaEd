@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu a due livelli</title>
+	<style>
+	body{
+	background:#FFF;
+	color:#000;
+	font:80% Arial,Helvetica,sans-serif;
+	}
+	/* I DUE MENU ORIZZONTALI */
+	.menuNavigazione{
+	line-height:1.2em;
+	margin:0;
+	padding:0.3em 0;
+	}
+	.menuNavigazione ul{
+	margin:0;
+	padding:0.3em 0;
+	border-bottom:1px solid #666;
+	}
+	.menuNavigazione li{
+	display:inline;
+	white-space:nowrap;
+	}
+	.menuNavigazione a{
+	padding:0.3em 15px;
+	text-decoration:none;
+	}
+	/* COLORI */
+	.menuNavigazione{
+	background:#666;
+	color:#FFF;
+	}
+	.menuNavigazione a{
+	background:#666;
+	color:#FFF;
+	}
+	.menuNavigazione ul{
+	background:#FFF;
+	color:#000;
+	}
+	.menuNavigazione .voceCorrente a{
+	background:#FFF;
+	color:#000;
+	}
+	/* POSIZIONAMENTO DEL SOTTO MENU */
+	.menuNavigazione{
+	position:relative;
+	}
+	.menuNavigazione ul{
+	position:absolute;
+	left:0;
+	top:1.8em;
+	width:100%;
+	}
+	/* EFFETTO ROLLOVER */
+	.menuNavigazione a:hover,
+	.menuNavigazione a:focus,
+	.menuNavigazione a:active{
+	text-decoration:underline;
+	}
+	</style>
+</head>
+<body>
+	<ul class="menuNavigazione">
+	    <li><a href="#">Prima Voce</a></li> 
+	    <li class="voceCorrente"><a href="#">Seconda Voce</a> 
+	        <ul>
+	            <li><a href="#">Prima Sottovoce</a></li>
+	            <li><a href="#">Seconda Sottovoce</a></li>
+	            <li><a href="#">Terza Sottovoce</a></li>
+	        </ul>
+	    </li>
+	    <li><a href="#">Terza Voce</a></li> 
+		<li><a href="#">Quarta Voce</a></li> 
+		<li><a href="#">Quinta Voce</a></li> 
+	</ul>
+</body>
+</html>

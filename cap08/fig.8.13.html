@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu a un livello</title>
+	<style>
+	body{
+	background:#FFF;
+	color:#000;
+	font:80% Arial,Helvetica,sans-serif;
+	}
+	.menuNavigazione{
+	background:#FFF;
+	color:#000;
+	margin:0;
+	padding:6px 0 5px 0;
+	border-bottom:1px solid #000;
+	text-align:center;
+	}
+	.menuNavigazione li{
+	display:inline;
+	white-space:nowrap;
+	}
+	.menuNavigazione a{
+	padding:5px 0.7em;
+	border:1px solid #000;
+	text-decoration:none;
+	margin:0 .3em;
+	}
+	.menuNavigazione a:link,
+	.menuNavigazione a:visited{
+	background:#DDD;
+	color:#666;
+	}
+	.menuNavigazione a:hover,
+	.menuNavigazione a:focus,
+	.menuNavigazione a:active{
+	background:#EEE;
+	color:#000;
+	}
+	.menuNavigazione .voceCorrente a:link,
+	.menuNavigazione .voceCorrente a:visited,
+	.menuNavigazione .voceCorrente a:hover,
+	.menuNavigazione .voceCorrente a:focus,
+	.menuNavigazione .voceCorrente a:active{
+	background:#FFF;
+	color:#000;
+	border-bottom:none;
+	padding-bottom:6px;
+	}
+	</style>
+</head>
+<body>
+<ul class="menuNavigazione">
+	<li><a href="#">Prima Voce</a></li
+	><li class="voceCorrente"><a href="#">Seconda Voce</a></li
+	><li><a href="#">Terza Voce</a></li
+	><li><a href="#">Quarta Voce</a></li
+	><li><a href="#">Quinta Voce</a></li>
+</ul>
+</body>
+</html>

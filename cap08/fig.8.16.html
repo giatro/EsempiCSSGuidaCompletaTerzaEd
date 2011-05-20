@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu dinamico</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<style type="text/css">
+	body{
+	background:#FFF;
+	color:#000;
+	font:80% Verdana,Geneva,Arial,Helvetica,sans-serif;
+	margin:0;
+	padding:10px;
+	position:absolute;
+	}
+
+
+
+	/* MENU */
+	.menuNavigazione{
+	margin:0;
+	padding:0;
+	width:200px;
+	border-top:1px solid;
+	}
+	.menuNavigazione li{
+	position:relative;
+	list-style:none;
+	}
+	/* SOTTOMENU */
+	.menuNavigazione ul{
+	padding:0;
+	border-top:1px solid;
+	}
+	/* SOTTOMENU SENZA JS */
+	.menuNavigazione ul{
+	margin:0 0 0 10px;
+	}
+	/* SOTTOMENU CON JS:ON OFF */
+	.menuNavigazione ul.subMenu-off{
+	position:absolute;
+	visibility:hidden;
+	height:0;
+	overflow:hidden;
+	}
+	.menuNavigazione ul.subMenu-on{
+	margin:0;
+	width:200px;
+	position:absolute;
+	top:-1px;
+	left:199px;
+	}
+	/* COLLEGAMENTI */
+	.menuNavigazione a{
+	display:block;
+	text-decoration:none;
+	padding:2px 10px;
+	}
+	.menuNavigazione a{
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+	border-left:10px solid #000;
+	}
+	/* COLORI */
+	.menuNavigazione a:link,
+	.menuNavigazione a:visited{
+		background:#EEE;
+		color:#000;
+		}
+		.menuNavigazione a:hover,
+		.menuNavigazione a:focus,
+		.menuNavigazione a:active{
+		background:#FFF;
+		color:#009;
+		}
+		/* VOCI CON SOTTOMENU */
+		.menuNavigazione.jsActive a.continua:link,
+		.menuNavigazione.jsActive a.continua:visited{
+		background-image:url(continua.gif);
+		background-position:right center;
+		background-repeat:no-repeat;
+		}
+
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.menuNavigazione').addClass('jsActive');
+		$('.menuNavigazione ul').addClass('subMenu-off');
+		$('.menuNavigazione li').bind('mouseover focus activate',function(){
+			$('ul:first',$(this)).addClass('subMenu-on').removeClass('subMenu-off');
+		});
+		$('.menuNavigazione li').bind('mouseout blur deactivate',function(){
+			$('ul:first',$(this)).addClass('subMenu-off').removeClass('subMenu-on');
+		});
+	});
+	</script>
+</head>
+<body>
+<ul class="menuNavigazione">
+	<li><a href="#">Prima Voce</a></li>
+	<li><a tabindex="0" href="#" class="continua">Seconda Voce</a>
+		<ul>
+			<li><a href="#">Prima Sottovoce</a></li>
+			<li><a href="#" class="continua">Seconda Sottovoce</a>
+				<ul>
+					<li><a href="#">Prima Sottovoce</a></li>
+					<li><a href="#">Seconda Sottovoce</a></li>
+					<li><a href="#">Terza Sottovoce</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Terza Sottovoce</a></li>
+		</ul>
+	</li>
+	<li><a href="#" class="continua">Terza Voce</a>
+		<ul>
+			<li><a href="#">Prima Sottovoce</a></li>
+			<li><a href="#">Seconda Sottovoce</a></li>
+			<li><a href="#">Terza Sottovoce</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Quarta Voce</a></li>
+	<li><a href="#">Quinta Voce</a></li>
+</ul>
+</body>
+</html>
