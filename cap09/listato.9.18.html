@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Bob Image Replacement con link ed effetto rollover utilizzando una sola immagine di sfondo</title>
+		<style>
+		#rimpiazza{
+		position:relative;
+		z-index:1;
+		height:102px;
+		width:329px;
+		}
+		#rimpiazza a{
+		display:block;
+		text-decoration:none;
+		height:102px;
+		width:329px;
+		background:transparent url(acme-logo-2-stati.png) 0 0 no-repeat;
+		}
+		#rimpiazza a:hover,
+		#rimpiazza a:focus,
+		#rimpiazza a:active{
+		background-position:0 -102px;
+		}
+		#rimpiazza a span{
+		position:relative;
+		z-index:-1;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="rimpiazza"><a href="..."><span>Acme</span></a></div>
+	</body>
+</html>

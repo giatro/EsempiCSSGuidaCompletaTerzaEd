@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Menu grafici</title>	
+  <style>
+    #menu{
+    margin:0;
+    padding:0;
+    list-style:none;
+    background:#EEE url(menu123.gif) no-repeat;
+    width:300px;
+    height:300px;
+    position:relative;
+    }
+    #menu li{
+    position:absolute;
+    z-index:1;
+    width:130px;
+    height:112px;
+    }
+    #menu a{
+    display:block;
+    width:100%;
+    height:100%;
+    background:transparent url(menu123.gif) no-repeat;
+    text-decoration:none;
+    }
+    #menu a span{
+    position:relative;
+    z-index:-1;
+    }
+    #menu #voce1{
+    left:8px;
+    top:21px;
+    }
+    #menu #voce2{
+    left:159px;
+    top:92px;
+    }
+    #menu #voce3{
+    left:8px;
+    top:162px;
+    }
+    #menu #voce1 a{
+    background-position:-8px -21px;
+    }
+    #menu #voce1 a:hover,
+    #menu #voce1 a:focus,
+    #menu #voce1 a:active{
+    background-position:-8px -321px;
+    }
+    #menu #voce2 a{
+    background-position:-159px -92px;
+    }
+    #menu #voce2 a:hover,
+    #menu #voce2 a:focus,
+    #menu #voce2 a:active{
+    background-position:-159px -392px;
+    }
+    #menu #voce3 a{
+    background-position:-8px -162px;
+    }
+    #menu #voce3 a:hover,
+    #menu #voce3 a:focus,
+    #menu #voce3 a:active{
+    background-position:-8px -462px;
+    }
+  </style>
+</head>
+<body>
+  <ul id="menu">
+    <li id="voce1"><a href="…"><span>Voce 1</span></a></li>
+    <li id="voce2"><a href="…"><span>Voce 2</span></a></li>
+    <li id="voce3"><a href="…"><span>Voce 3</span></a></li> 
+  </ul>
+</body>
+</html>

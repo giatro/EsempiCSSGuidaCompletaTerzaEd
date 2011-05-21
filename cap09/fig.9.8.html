@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Sfondi come icone</title>
+		<style>
+			html,body{
+				font: 14px MCPdigital, monospace;
+				background: #FFF;
+				position: relative;
+				padding: 5px;
+			}
+			acronym, abbr {
+				padding-right: 14px;
+				background: url(info.gif) right center no-repeat;
+				border-bottom:1px dotted #000;
+			}
+			a[href^=http]{
+				padding-right: 12px;
+				background: url(sitoExt.gif) right center no-repeat;
+			}
+			a[href^=mailto]{
+				padding-right: 14px;
+				background: url(email.gif) right center no-repeat;
+			}
+		</style>
+	</head>
+	<body>
+		<p>Vai al <a href="http://…/" class="sitoExt">sito esterno</a>, inviami una
+		<a href="mailto:…" class="email">e-mail</a/><p>
+	</body>
+</html>

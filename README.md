@@ -80,4 +80,13 @@ Indice
     * fig.8.13.html: Menu a schede 
     * fig.8.15.html: Menu a due livelli orizzontale 
     * fig.8.16.html: Menu dinamico a comparsa laterale 
-
+* cap09: Tecniche avanzate: immagini tramite CSS
+    * fig.9.6.html: Box con angoli arrotondati
+    * fig.9.8.html: Icone per identificare link esterni e indirizzi e-mail
+    * FIR.html: Fahrner Image Replacement (FIR)
+    * LIR.html: Leahy/Langridge Image Replacement (LIR) 
+    * PIR.html: Phark Image Replacement
+    * PixyCoverUpSpan.html: Pixy Cover-Up span 
+    * BIR.html: Bob Image Replacement (BIR)
+    * listato.9.18.html: Bob Image Replacement con link ed effetto rollover utilizzando una sola immagine di sfondo
+    * fig.9.17.html: Menu grafici

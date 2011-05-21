@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Bob Image Replacement (BIR)</title>
+		<style>
+		body{
+		position:relative;
+		z-index:1;
+		}
+		#rimpiazza{
+		height:102px;
+		width:329px;
+		background:transparent url(acme-logo.png) 0 0 no-repeat;
+		}
+		#rimpiazza span{
+		position:relative;
+		z-index:-1;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="rimpiazza"><span>Acme</span></div>
+	</body>
+</html>
