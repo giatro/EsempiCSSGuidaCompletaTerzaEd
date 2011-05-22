@@ -98,3 +98,5 @@ Indice
     * fig.10.5.html: Icone inserite come contenuti generati
     * fig.10.6.html: Contenuti generati e attributi
     * fig.10.7.html: Contatori
+* cap11: Tecniche avanzate: differenziare l’esperienza utente
+    * index.html: Esempio completo
