@@ -100,3 +100,11 @@ Indice
     * fig.10.7.html: Contatori
 * cap11: Tecniche avanzate: differenziare l’esperienza utente
     * index.html: Esempio completo
+* cap12: Effetti speciali: trasformazioni e transizioni
+    * fig.12.1.html: Valore scale() della proprietà transform
+    * fig.12.2.html: Valore rotate() della proprietà transform
+    * fig.12.3.html: Valore skew() della proprietà transform 
+    * fig.12.4.html: Valore translate() della proprietà transform
+    * fig.12.5.html: Trasformazioni multiple
+    * fig.12.6.html: La proprietà transform-origin
+    * fig.12.7.html: Effetto di transizione sulla proprietà transform

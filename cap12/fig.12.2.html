@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trasformazioni CSS3</title>
+	<style>
+		ul.galleria {
+		margin:100px 0;
+		padding:0;
+		}
+		ul.galleria li{
+		list-style:none;
+		float:left;
+		padding:10px;
+		margin-left:10px;
+		border:1px solid #999;
+		}
+		ul.galleria li a{
+		display:block;
+		}
+		ul.galleria li a img{
+		display:block;
+		}
+		ul.galleria li a:hover img{
+		-ms-transform: rotate(15deg);
+		-moz-transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);
+		-o-transform: rotate(15deg);
+		transform: rotate(15deg);
+		}
+  </style>
+</head>
+<body>
+  <ul class="galleria">
+    <li><a href="…"><img src="sea1.jpg" alt=""></a></li>
+    <li><a href="…"><img src="sea2.jpg" alt=""></a></li>
+    <li><a href="…"><img src="sea3.jpg" alt=""></a></li>
+  </ul>
+</body>
+</html>
+</html>
